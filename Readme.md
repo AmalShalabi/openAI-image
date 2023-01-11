@@ -1,5 +1,5 @@
 # Overview
-This project demonstrates how to use OpenAI's GPT-3 model to generate an image with vanilla JavaScript and Node.js. You can try out a demo of this project <a href=" https://open-ai-image-ashy.vercel.app/."  target="_blank">demo</a>
+This project demonstrates how to use OpenAI's GPT-3 model to generate an image with vanilla JavaScript and Node.js. You can try out a demo of this project <a href="http://127.0.0.1:5501/public/index.htm" target="_blank">Demo</a>
 
 
 # Prerequisites
