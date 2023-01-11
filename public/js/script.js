@@ -19,16 +19,19 @@ async function generateImageRequest(prompt, size) {
   try {
     showSpinner();
 
-    const response = await fetch("http://localhost:5000/openai/generateimage", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        prompt,
-        size,
-      }),
-    });
+    const response = await fetch(
+      "https://openai-image-generator-kufs.onrender.com/openai/generateimage",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          prompt,
+          size,
+        }),
+      }
+    );
 
     if (!response.ok) {
       removeSpinner();
